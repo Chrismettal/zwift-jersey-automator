@@ -25,7 +25,7 @@ Homepage = "https://github.com/Chrismettal/zwift-jersey-automator"
 "Bug Tracker" = "https://github.com/Chrismettal/zwift-jersey-automator/issues"
 
 [project.scripts]
-zwift-jersey-auto = "zwift_jersey_automator.automator:run_code_entry"
+zwift-jersey-automator = "zwift_jersey_automator.automator:run_code_entry"
 
 [tool.setuptools]
 packages = ["zwift_jersey_automator"]
