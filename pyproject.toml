@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "zwift-jersey-automator"
+version = "0.1.0"
+authors = [
+  { name="Chrismettal", email="chrismettal@binary-6.de" },
+]
+description = "Automates the entry of Zwift jersey promo codes using simulated keyboard input."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 or later",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "pyautogui",
+]
+
+[project.urls]
+Homepage = "https://github.com/Chrismettal/zwift-jersey-automator"
+Bug Tracker = "https://github.com/Chrismettal/zwift-jersey-automator/issues"
+
+[project.scripts]
+zwift-jersey-auto = "zwift_jersey_automator.automator:run_code_entry"
+
+[tool.setuptools]
+packages = ["zwift_jersey_automator"]

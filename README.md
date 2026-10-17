@@ -48,7 +48,7 @@ The script follows this automated loop for each code:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/zwift-jersey-automator.git
+   git clone https://github.com/Chrismettal/zwift-jersey-automator.git
    cd zwift-jersey-automator
    ```
 
@@ -68,7 +68,7 @@ The script follows this automated loop for each code:
 1. Make sure Zwift is running and you are logged in.
 2. Run the script:
    ```bash
-   python src/press_p.py
+   python -m zwift_jersey_automator
    ```
 3. **Immediately switch focus to your Zwift window.** You have 5 seconds to do this.
 4. Sit back and watch as the codes are entered!
