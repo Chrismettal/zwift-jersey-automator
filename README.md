@@ -3,8 +3,6 @@
 [![License: GPLv3](https://img.shields.io/badge/license-GPLv3-red?style=flat-square)](https://www.gnu.org/licenses/gpl-3.0.html)
 [![Donations: Coffee](https://img.shields.io/badge/donations-Coffee-brown?style=flat-square)](https://github.com/Chrismettal#donations)
 
-![Logo](img/Logo.png)
-
 A Python script that automates the entry of Zwift jersey promo codes using simulated keyboard input.
 
 **If you like my work please consider [supporting me](https://github.com/Chrismettal#donations)!**
@@ -12,16 +10,23 @@ A Python script that automates the entry of Zwift jersey promo codes using simul
 ## Table of contents <!-- omit in toc -->
 
 - [Concept](#concept)
+  - [Overview](#overview)
+  - [How It Works](#how-it-works)
 - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Usage](#usage)
 - [Donations](#donations)
 - [License](#license)
 
 ## Concept
 
 ### Overview
+
 Entering dozens of promo codes in Zwift one by one can be tedious. This script iterates through a curated list of known Zwift kit unlock codes, simulating the keyboard presses required to enter them quickly and efficiently.
 
 ### How It Works
+
 The script follows this automated loop for each code:
 1. Presses `p` to open the promo code prompt.
 2. Waits for 250ms.
@@ -34,11 +39,13 @@ The script follows this automated loop for each code:
 ## Setup
 
 ### Prerequisites
+
 - **Python 3.x**
 - **pyautogui**: Used for keyboard simulation.
 - **A windowed version of Zwift** (running on PC or Mac) to receive the simulated input.
 
 ### Installation
+
 1. Clone this repository:
    ```bash
    git clone https://github.com/YOUR_USERNAME/zwift-jersey-automator.git
@@ -57,6 +64,7 @@ The script follows this automated loop for each code:
    ```
 
 ### Usage
+
 1. Make sure Zwift is running and you are logged in.
 2. Run the script:
    ```bash
