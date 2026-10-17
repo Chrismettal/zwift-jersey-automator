@@ -1,13 +1,27 @@
-# Zwift Jersey Automator
+# Zwift Jersey Automator <!-- omit in toc -->
+
+[![License: GPLv3](https://img.shields.io/badge/license-GPLv3-red?style=flat-square)](https://www.gnu.org/licenses/gpl-3.0.html)
+[![Donations: Coffee](https://img.shields.io/badge/donations-Coffee-brown?style=flat-square)](https://github.com/Chrismettal#donations)
+
+![Logo](img/Logo.png)
 
 A Python script that automates the entry of Zwift jersey promo codes using simulated keyboard input.
 
-## Overview
+**If you like my work please consider [supporting me](https://github.com/Chrismettal#donations)!**
 
+## Table of contents <!-- omit in toc -->
+
+- [Concept](#concept)
+- [Setup](#setup)
+- [Donations](#donations)
+- [License](#license)
+
+## Concept
+
+### Overview
 Entering dozens of promo codes in Zwift one by one can be tedious. This script iterates through a curated list of known Zwift kit unlock codes, simulating the keyboard presses required to enter them quickly and efficiently.
 
-## How It Works
-
+### How It Works
 The script follows this automated loop for each code:
 1. Presses `p` to open the promo code prompt.
 2. Waits for 250ms.
@@ -17,14 +31,14 @@ The script follows this automated loop for each code:
 
 **Note:** When you start the script, there is an initial 5-second delay to allow you to focus the Zwift game window.
 
-## Prerequisites
+## Setup
 
+### Prerequisites
 - **Python 3.x**
 - **pyautogui**: Used for keyboard simulation.
 - **A windowed version of Zwift** (running on PC or Mac) to receive the simulated input.
 
-## Installation
-
+### Installation
 1. Clone this repository:
    ```bash
    git clone https://github.com/YOUR_USERNAME/zwift-jersey-automator.git
@@ -42,8 +56,7 @@ The script follows this automated loop for each code:
    pip install pyautogui
    ```
 
-## Usage
-
+### Usage
 1. Make sure Zwift is running and you are logged in.
 2. Run the script:
    ```bash
@@ -52,10 +65,10 @@ The script follows this automated loop for each code:
 3. **Immediately switch focus to your Zwift window.** You have 5 seconds to do this.
 4. Sit back and watch as the codes are entered!
 
-## Disclaimer
+## Donations
 
-This script is provided for convenience. Use it at your own risk. We are not responsible for any issues that may arise from using this automation tool within Zwift.
+**If you like my work please consider [supporting me](https://github.com/Chrismettal#donations)!**
 
 ## License
 
-This project is licensed under the [GNU GPLv3 License](LICENSE).
+<a rel="GPLlicense" href="https://www.gnu.org/licenses/gpl-3.0.html"><img alt="GPLv3" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under the <a rel="GPLlicense" href="https://www.gnu.org/licenses/gpl-3.0.html">GNU GPLv3 License</a>.
