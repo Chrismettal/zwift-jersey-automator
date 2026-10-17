@@ -48,6 +48,14 @@ The script follows this automated loop for each code:
 
 ### Installation
 
+#### Option 1: Install from PyPI (Recommended)
+
+```bash
+pip install zwift-jersey-automator
+```
+
+#### Option 2: Install from Source
+
 1. Clone this repository:
    ```bash
    git clone https://github.com/Chrismettal/zwift-jersey-automator.git
@@ -60,18 +68,26 @@ The script follows this automated loop for each code:
    source venv/bin/activate
    ```
 
-3. Install dependencies:
+3. Install the package:
    ```bash
-   pip install pyautogui
+   pip install .
    ```
 
 ### Usage
 
 1. Make sure Zwift is running and you are logged in.
 2. Run the script:
+
+   **If installed via PyPI:**
+   ```bash
+   zwift-jersey-auto
+   ```
+
+   **If installed from source:**
    ```bash
    python -m zwift_jersey_automator
    ```
+
 3. **Immediately switch focus to your Zwift window.** You have 5 seconds to do this.
 4. Sit back and watch as the codes are entered!
 
