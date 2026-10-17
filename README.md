@@ -25,6 +25,8 @@ A Python script that automates the entry of Zwift jersey promo codes using simul
 
 Entering dozens of promo codes in Zwift one by one can be tedious. This script iterates through a curated list of known Zwift kit unlock codes, simulating the keyboard presses required to enter them quickly and efficiently.
 
+**You can view the current list of codes [here](zwift_jersey_automator/data/codes.py).**
+
 ### How It Works
 
 The script follows this automated loop for each code:

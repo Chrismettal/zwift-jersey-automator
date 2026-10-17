@@ -1,62 +1,6 @@
 import pyautogui
 import time
-
-# Zwift Jersey Promo Codes
-ZWIFT_JERSEY_CODES = [
-    "ATOC2015",
-    "BICYCLINGMAG",
-    "BIKERADAR",
-    "BIKEANDBEER",
-    "CANBERRACCKIT",
-    "CRCANYC",
-    "DOCOMO",
-    "GOALIENWARE",
-    "GEARPATROL",
-    "GEELONGCCKIT",
-    "GOLONGRIDERS",
-    "GOLDCOAST",
-    "GOAMGENTOC",
-    "GOBATTENKILL",
-    "GOCIS",
-    "GOCYCLEOPS",
-    "GOELITE",
-    "GOFREESPEED",
-    "GOGCN",
-    "GOPEARSON",
-    "GOVISION",
-    "GOSKRYE",
-    "GOWBR",
-    "GOWSR",
-    "GOUSMES",
-    "HIKKIT32616",
-    "JENSIE",
-    "LAFUGA.CC",
-    "LAVA",
-    "MDCCKIT",
-    "MGCCKit",
-    "MTSKIT",
-    "NCCMAKIT",
-    "PCGKIT32516",
-    "RADAVIST",
-    "RIDEAUSTRALIA",
-    "RIDEPOWERTAP",
-    "RIDEQUARQ",
-    "ROAD.CC",
-    "SIGMASPORT",
-    "SLOWTWITCH",
-    "SOIGNEURDK",
-    "STKILDA2015KIT",
-    "SYDNEYCCKIT",
-    "GOTACX",
-    "TDP2015",
-    "GOTRAINSHARP",
-    "TRIATHLETEMAG",
-    "TSBIKES",
-    "VCGHKIT",
-    "WAHOOFITNESS",
-    "ZTHKIT",
-    "GOINGAMBA"
-]
+from .data.codes import ZWIFT_JERSEY_CODES
 
 def run_code_entry():
     print("Starting code entry in 5 seconds...")
